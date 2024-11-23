@@ -51,17 +51,16 @@ li{
     border-radius: 10px;
 }
 
-.horario:hover{
+.buttom{
+    padding: 10px 20px;
+    font-size: 16px;
     color: black;
+    background-color: aqua;
+    border-radius: 5px;
+
 }
-.GitHub:hover{
-    color: black;
-}
-.Formulario:hover{
-    color: black;
-}
-.Archivo:hover{
-    color: black;
+.buttom:hover{
+background-color: orangered;
 }
 
 
