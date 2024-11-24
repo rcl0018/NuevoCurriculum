@@ -1,182 +1,116 @@
-/* Reset básico */
-* {
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
 }
 
-/* Estilos para el header */
 .header {
-    background: #007bff;
-    color: #fff;
-    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-.Card_inicio {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.Card_titulo h2 {
-    font-size: 2.5em;
-    margin-bottom: 15px;
+.titulo--h2 {
+    margin: 0;
 }
 
 .Card_img img {
     border-radius: 50%;
-    border: 5px solid #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
 }
 
-/* Navegación */
 .nav {
     margin-top: 15px;
 }
 
-.Card-añadidos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .añadidos--buttom {
-    display: inline-block;
-    background: #28a745;
     color: white;
-    padding: 12px 15px;
-    margin: 5px;
-    border-radius: 5px;
+    background-color: #007bff;
+    padding: 10px 15px;
     text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
 }
 
 .añadidos--buttom:hover {
-    background: #218838;
+    background-color: #0056b3;
 }
 
 /* Estilos para el main */
 .main {
-    max-width: 800px;
-    margin: 20px auto;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
 }
 
-/* Sección de datos personales */
-.datos--personales {
-    background: #fff;
+.section--1, .section--2 {
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
-.datos--personales--p {
-    margin-bottom: 15px;
+article {
+    margin-bottom: 20px;
 }
 
-.datos--personales-h {
+.datos--personales-h, .educacion--h4 {
     color: blue;
     text-decoration: underline;
 }
 
-.datos--personales-ul {
-    list-style-type: none;
-    padding-left: 0;
+/* Estilos para el progreso */
+button {
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: not-allowed;
 }
 
-/* Estilos para la educación */
-.Card-educacion {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.educacion--h4 {
-    color: blue;
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
-
-.educacion--ol {
-    list-style-type: decimal;
-    padding-left: 20px;
-}
-
-.educacion--text2 a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.educacion--text2 a:hover {
-    text-decoration: underline;
+progress {
+    width: 100%;
+    height: 20px;
 }
 
 /* Estilos para el portfolio */
 .Card_portfolio {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .portfolio-bar {
-    background: #e9ecef;
+    background-color: #ddd;
     border-radius: 5px;
     overflow: hidden;
-    margin: 5px 0;
+    margin-bottom: 5px;
 }
 
 .portfolio--bara {
     height: 20px;
-    line-height: 20px;
-    color: white;
+    background-color: #007bff;
     text-align: center;
-}
-
-.barra-60 {
-    width: 60%;
-    background: #007bff;
-}
-
-.barra-30 {
-    width: 30%;
-    background: #28a745;
-}
-
-.barra-35 {
-    width: 35%;
-    background: #ffc107;
-}
-
-.barra-10 {
-    width: 10%;
-    background: #dc3545;
-}
-
-/* Estilos para el aside */
-aside {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
 /* Estilos para el footer */
 footer {
-    background: #007bff;
-    color: #fff;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer--p {
+    margin: 0;
+}
+
+.mapa {
+    margin-top: 15px;
 }
