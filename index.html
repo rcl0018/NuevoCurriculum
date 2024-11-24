@@ -1,96 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio__1curriculum</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .footer--p{
+            color: blue;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-<div class="curriculum--total">
 
-    <div class="Card_inicio">
-        <div class="Card_titulo">
-            <h2 class="titulo--h2">Raul Camara Lara</h2>
-        </div>
-        <div class="Card_img">
-            <img class="img" src="img/curriculum.jpg"    width="200px"  height="200'px"   alt="no se ve">
-        </div>
 
-        <div clas="datos--personales">
-            <p class="datos--personales--p">
+    <header class="header">
+
+        <div class="Card_inicio">
+            <div class="Card_titulo">
+                <h2 class="titulo--h2">Raul Camara Lara</h2>
+            </div>
+            <div class="Card_img">
+                <img class="img" src="img/curriculum.jpg" width="200px" height="200'px" alt="no se ve">
+            </div>
+            <nav class="nav">
+                <div class="Card-añadidos">
+                    <a class="añadidos--buttom" href="https://github.com/dashboard" target="_blank">GitHub</a>
+                    <a class="añadidos--buttom" href="formulario.html">Formulario</a>
+                    <a class="añadidos--buttom" href="horario.html">horario</a>
+                    <a class="añadidos--buttom" href="pdf/preuba de HTML.pdf">Archivo.pdf</a>
+                    <a class="añadidos--buttom" href="añadirvideo.html">Documental</a>
+                </div>
+
+            </nav>
+    </header>
+
+    <main class="main">
+        <section1 class="section--1">
+            <h3>curriculum al 65%</h1>
+            <button disabled>Progreso: 65%</button>
+            <br><br>
+            <progress value="65" max="100" style="width: 75%;"></progress>
+            </section>
+        <section2 class="section--2">
+            <div clas="datos--personales">
+                <p class="datos--personales--p">
                 <h4 class="datos--personales-h" style="color: blue;text-decoration: underline;"> Info</h4>
-                <ul class="datos--personales-ul">                   
+                <ul class="datos--personales-ul">
                     <li class="nombre"> Raúl</li>
                     <li class="apellodos">Cámara Lara</li>
                     <li class="email">rcl0018@alu.medac.es</li>
                 </ul>
-            </p>
+                </p>
+            </div>
+            </div>
+
+            
+            <article class="article1">
+                <div class="Card-educacion">
+
+                    <h4 class="educacion--h4" style="color: blue;text-decoration: underline;">ESTUDIOS:</h4>
+                    <ol class="educacion--ol">
+                        <li class="educa--ol--li">ESO</li>
+                        <li class="educa--ol--li">Bachillerato</li>
+                        <li class="educa--ol--li">GRado superior:"DAM"</li>
+                        <li class="educa--ol--li">Master en ciberseguridad</li>
+                    </ol>
+                    <p class="educacion--text2">Empece a estudir una grado en la UJA de recursos humos, poco despues de
+                        2
+                        años
+                        vi que no me gustaba y me cambien a un grado superior de DAM en <a href="https://medac.es/"
+                            class="MEDAC" target="_blank">MEDAC</a> donde he aprendido mucho sobre los siguientes
+                        lenguajes
+                        Y
+                        tambien hice un <a href="https://medac.es/master/ciberseguridad" class="MEDAC"
+                            target="_self">Master
+                            en
+                            ciberseguridad.</a></p>
+                    </p>
+                </div>
+            </article>
+            <article class="article2">
+                <div class="Card_portfolio">
+                    <h5 style="color: blue;text-decoration: underline;">LENGUAJES:</h5>
+                    <ul>
+                        <li class="potfolio--lenguaje">
+                            <div class="portfolio-bar">
+                                <div class="portfolio--bara barra-60">60%</div>
+                            </div>
+                            <span class="potfolio--lenguaje-nombre">HTML</span>
+                        </li>
+
+                        <li class="potfolio--lenguaje">
+                            <div class="portfolio-bar">
+                                <div class="portfolio--bara barra-30">30%</div>
+                            </div>
+                            <span class="potfolio--lenguaje-nombre">CSS</span>
+                        </li>
+
+                        <li class="potfolio--lenguaje">
+                            <div class="portfolio-bar">
+                                <div class="portfolio--bara barra-35">35%</div>
+                            </div>
+                            <span class="potfolio--lenguaje-nombre">JAVA</span>
+                        </li>
+
+                        <li class="potfolio--lenguaje">
+                            <div class="portfolio-bar">
+                                <div class="portfolio--bara barra-60">10%</div>
+                            </div>
+                            <span class="potfolio--lenguaje-nombre">PYthom</span>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+        </section>
+        <aside>
+            <p class="educacion--text1">Me prresento, soy Raul un chico que le gusta trabajar en equipo, no me
+                gusta
+                meterme en problemas por lo que me gusta resolver los malos entendidos conversando</p>
+        </aside>
+    </main>
+    <footer>
+        <div class="mapa">
+            <p class="footer--p">Ubicacion de Medac aventura</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.656373447785!2d-3.78786519169806!3d37.79809206238007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6dd7dec3dd20ad%3A0x4fad82fdbe189c8!2sMEDAC%20Aventura%20Formaci%C3%B3n%20Profesional!5e0!3m2!1sca!2ses!4v1732391571590!5m2!1sca!2ses"
+                width="275px" height="225'px" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </div>
- 
-    <div class="Card-educacion">
-
-        <p class="educacion--text1">Me prresento, soy Raul un chico que le gusta trabajar en equipo, no me gusta meterme en problemas por lo que me gusta resolver los malos entendidos conversando</p>
-
-        <h4 class="educacion--h4" style="color: blue;text-decoration: underline;">ESTUDIOS:</h4>
-        <ol class="educacion--ol">
-            <li class="educa--ol--li">ESO</li>
-            <li class="educa--ol--li">Bachillerato</li>
-            <li class="educa--ol--li">GRado superior:"DAM"</li>
-            <li class="educa--ol--li">Master en ciberseguridad</li>
-        </ol>
-        <p class="educacion--text2">Empece a estudir una grado en la UJA de recursos humos, poco despues de 2 años vi que no me gustaba y me cambien a un grado superior de DAM en <a href="https://medac.es/" class="MEDAC" target="_blank">MEDAC</a> donde he aprendido mucho sobre los siguientes lenguajes Y tambien hice un <a href="https://medac.es/master/ciberseguridad"  class="MEDAC" target="_self">Master en ciberseguridad.</a></p>
-        </p>
- </div>
-
-    <div class="Card_portfolio">
-        <h5 style="color: blue;text-decoration: underline;">LENGUAJES:</h5>
-        <ul>
-        <li class="potfolio--lenguaje">
-            <div class="portfolio-bar">
-                <div class="portfolio--bara barra-60">60%</div>
-            </div>
-            <span class="potfolio--lenguaje-nombre">HTML</span>
-        </li>
-
-        <li class="potfolio--lenguaje">
-            <div class="portfolio-bar">
-                <div class="portfolio--bara barra-30">30%</div>
-            </div>
-            <span class="potfolio--lenguaje-nombre">CSS</span>
-        </li>
-
-        <li class="potfolio--lenguaje">
-            <div class="portfolio-bar">
-                <div class="portfolio--bara barra-35">35%</div>
-            </div>
-            <span class="potfolio--lenguaje-nombre">JAVA</span>
-        </li>
-
-        <li class="potfolio--lenguaje">
-            <div class="portfolio-bar">
-                <div class="portfolio--bara barra-60">10%</div>
-            </div>
-            <span class="potfolio--lenguaje-nombre">PYthom</span>
-        </li>
-        </ul>
-    </div>
-
-<div class="Card-añadidos">
-    <a class="añadidos--buttom"  href="https://github.com/dashboard" target="_blank">GitHub</a>
-    <a class="añadidos--buttom" href="formulario.html">Formulario</a>
-    <a class="añadidos--buttom" href="horario.html">horario</a>
-    <a class="añadidos--buttom" href="pdf/preuba de HTML.pdf">Archivo.pdf</a> 
-    <a class="añadidos--buttom" href="añadirvideo.html">Documental</a>
- </div>     
+    </footer>
 
 
-<div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.656373447785!2d-3.78786519169806!3d37.79809206238007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6dd7dec3dd20ad%3A0x4fad82fdbe189c8!2sMEDAC%20Aventura%20Formaci%C3%B3n%20Profesional!5e0!3m2!1sca!2ses!4v1732391571590!5m2!1sca!2ses" width="275px"  height="225'px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
-</div>
-    
 </body>
+
 </html>

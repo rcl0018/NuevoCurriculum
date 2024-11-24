@@ -1,143 +1,182 @@
-
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* Reset básico */
+* {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.curriculum--total {
-    max-width: 800px;
-    margin: auto;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Estilos para las tarjetas */
-.Card_inicio, .Card-educacion, .Card_portfolio, .Card_añadidos {
-    margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 8px;
-    background: #e9ecef;
+/* Estilos para el header */
+.header {
+    background: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .Card_inicio {
-    display: flex;
-    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.Card_img {
-    margin-right: 10px;
+.Card_titulo h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
 }
 
 .Card_img img {
     border-radius: 50%;
-    border: 3px solid #007bff;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
-.titulo--h2{
-    color: #007bff;
+/* Navegación */
+.nav {
+    margin-top: 15px;
 }
 
-/* Estilos para los datos personales */
-.datos--personales-h {
-    margin: 0;
+.Card-añadidos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-/* Estilos para la educación */
-.educacion--text1, .educacion--text2 {
+.añadidos--buttom {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 12px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.añadidos--buttom:hover {
+    background: #218838;
+}
+
+/* Estilos para el main */
+.main {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Sección de datos personales */
+.datos--personales {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.datos--personales--p {
     margin-bottom: 15px;
 }
 
+.datos--personales-h {
+    color: blue;
+    text-decoration: underline;
+}
+
+.datos--personales-ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Estilos para la educación */
+.Card-educacion {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .educacion--h4 {
-    margin-top: 20px;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 .educacion--ol {
-    margin-left: 20px;
+    list-style-type: decimal;
+    padding-left: 20px;
 }
 
-/*  portafolio de lenguajes */
-.portfolio {
-    background: #d1ecf1;
-    padding: 15px;
-    border-radius: 8px;
+.educacion--text2 a {
+    color: #007bff;
+    text-decoration: none;
 }
 
+.educacion--text2 a:hover {
+    text-decoration: underline;
+}
 
-
-.portfolio--lenguaje  {
-    list-style: none;
-    display: flex;
-    margin: 10px;
-    max-width: 600px;
-    margin-left: 0;
-    align-items: center;
+/* Estilos para el portfolio */
+.Card_portfolio {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-bar {
-    border: 2px solid #48e;
-    border-radius: 8px;
-    color: #fff;
-    padding: 2px;
-    font-size: 12px;
-    width: 80%;
-    margin: 4px;
-    margin-left: 0;
+    background: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px 0;
 }
 
-.portfolio--bara{
-    background-color: #48e;
-    border-radius: 4px;
-    padding: 4px 6px;
+.portfolio--bara {
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    text-align: center;
 }
 
-
-.barra-60{
+.barra-60 {
     width: 60%;
+    background: #007bff;
 }
 
-.barra-30{
+.barra-30 {
     width: 30%;
+    background: #28a745;
 }
 
 .barra-35 {
     width: 35%;
+    background: #ffc107;
 }
 
 .barra-10 {
     width: 10%;
+    background: #dc3545;
 }
 
-
-
-/*  botones */
-.añadidos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+/* Estilos para el aside */
+aside {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.añadidos--buttom {
+/* Estilos para el footer */
+footer {
     background: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background 0.3s;
+    color: #fff;
 }
-
-.añadidos--buttom:hover {
-    background: #0056b3;
-}
-
-/* Estilos para el mapa */
-.mapa {
-    margin-top: 20px;
-    text-align: center;
-}
-
-
