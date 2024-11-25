@@ -1,5 +1,5 @@
 
-/* le aadimos al body un formato que sea general para que lo tenga todo el css de base*/
+/* le añdimos al body un formato que sea general para que lo tenga todo el css de base*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,11 +8,12 @@ body {
 }
 .card--all{
     margin: 20px;
-    box-sizing: border-box;
+
 
 }
 
 .header {
+    width: auto;
     background-color: #333;
     color: white;
     padding: 20px;
