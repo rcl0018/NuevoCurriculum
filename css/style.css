@@ -42,7 +42,8 @@ body {
 }
 
 .añadidos--buttom:hover {
-    background-color: #0563;
+    background-color: #fff;
+    color: black;
 }
 
 
